@@ -1,6 +1,6 @@
 .myButton {
     color: rgb(255, 255, 255); font-size: 15px; line-height: 15px; padding: 9px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: radial-gradient(at center center, rgb(50, 164, 32) 0%, rgb(203, 33, 26) 26%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
-    .myButton:hover {
+.myButton:hover {
     background: #32A420; }
-    .myButton:active {
+.myButton:active {
     background: #144E75; }

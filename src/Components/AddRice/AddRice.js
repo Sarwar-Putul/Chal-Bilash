@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useForm } from "react-hook-form";
-import { Button, Col, Form } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './AddRice.css'
 
 const AddRice = () => {
-    const { register, handleSubmit, watch, errors } = useForm();
+    const { register, handleSubmit} = useForm();
     const [imageURL, setImageURL] = useState(null);
 
 
