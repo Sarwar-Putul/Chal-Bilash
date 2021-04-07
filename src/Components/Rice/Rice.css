@@ -1,0 +1,15 @@
+.rice-card{
+    border: 2px solid darkslategrey;
+    border-radius: 5px;
+    margin: 20px;
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}
+.rice-card img{
+    height: 300px;
+}  
+
+.rice-card h5{
+    text-align: center;
+}

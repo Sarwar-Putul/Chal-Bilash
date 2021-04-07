@@ -1,0 +1,12 @@
+.admin-bar{
+    border: 1px solid rgb(36, 54, 7);
+    background-color: rgb(36, 54, 7);
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.admin-bar link{
+    margin-left: 20px;
+    text-decoration: none;
+}
