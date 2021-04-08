@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const ManagerTable = ({product}) => {
 
@@ -11,7 +11,9 @@ const ManagerTable = ({product}) => {
         })
         .then(res => res.json())
         .then(result =>{
-            
+            if(result){
+                alert('Your product deleted successfully');
+            }
         })
 
     }

@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Button, Table } from 'react-bootstrap';
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
 import { UserContext } from '../../App';
 
 
@@ -31,12 +30,6 @@ const Checkout = () => {
            }
        })
    }
-//    const [order, setOrder] = useState([]);
-//    useEffect(() => {
-//        fetch(`https://protected-crag-65686.herokuapp.com/order/${id}`)
-//        .then(res => res.json())
-//        .then(data => setOrder(data))
-//    }, []);
 
 
     return (

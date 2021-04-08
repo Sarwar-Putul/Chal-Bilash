@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header">
             <nav>
             <span className="title" style={{fontSize: '40px', color: 'white'}}>Chal Bilash</span>
-                <Link to ="/home">Home</Link>
+                <Link to ="/">Home</Link>
                 <Link to ="/orders">Orders</Link>
                 <Link to ="/admin">Admin</Link>
                 <Link to ="/deals">Deals</Link>

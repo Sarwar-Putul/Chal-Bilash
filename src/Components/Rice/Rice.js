@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Link} from 'react-router-dom';
@@ -21,8 +20,6 @@ const Rice = ({rice}) => {
                     <h3 style={{color: 'blue'}}>$ {rice.price}</h3>
                     <Link to={`/checkout/${rice._id}`}> <button className="btn-primary">Buy Now</button></Link>
                 </div>
-                    
-            
             </Card>
         </div>
     );

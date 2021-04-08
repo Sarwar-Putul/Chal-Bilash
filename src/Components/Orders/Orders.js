@@ -1,6 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Table } from 'react-bootstrap';
-import { useParams } from 'react-router';
 import { UserContext } from '../../App';
 import OrderHolder from '../OrderHolder/OrderHolder';
 

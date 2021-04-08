@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './App.css';
 import Home from "./Components/Home/Home";
@@ -33,32 +32,32 @@ function App() {
             <Router>
               <Header></Header>
               <Switch>
-                <Route path="/home">
-                  <Home></Home>
-                </Route>
-                <PrivateRoute path="/orders">
-                  <Orders></Orders>
-                </PrivateRoute>
-                <PrivateRoute path="/addRice">
-                  <AddRice></AddRice>
-                </PrivateRoute>
-                <PrivateRoute path="/admin">
-                  <Admin></Admin>
-                </PrivateRoute>
-                <PrivateRoute path="/checkout/:id">
-                  <Checkout></Checkout>
-                </PrivateRoute>
-                <Route path="/riceManager">
-                  <RiceManager></RiceManager>
-                </Route>
-                <PrivateRoute path="/deals">
-                  <Deals></Deals>
-                </PrivateRoute>
-                <Route path="/login">
-                  <Login></Login>
-                </Route>
                 <Route exact path="/">
                   <Home></Home>
+                </Route>
+                <Route exact path="/home">
+                  <Home></Home>
+                </Route>
+                <PrivateRoute exact path="/orders">
+                  <Orders></Orders>
+                </PrivateRoute>
+                <PrivateRoute exact path="/addRice">
+                  <AddRice></AddRice>
+                </PrivateRoute>
+                <PrivateRoute exact path="/admin">
+                  <Admin></Admin>
+                </PrivateRoute>
+                <PrivateRoute exact path="/checkout/:id">
+                  <Checkout></Checkout>
+                </PrivateRoute>
+                <Route exact path="/riceManager">
+                  <RiceManager></RiceManager>
+                </Route>
+                <PrivateRoute exact path="/deals">
+                  <Deals></Deals>
+                </PrivateRoute>
+                <Route exact path="/login">
+                  <Login></Login>
                 </Route>
                 <Route path="*">
                   <NotFound></NotFound>
