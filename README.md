@@ -13,8 +13,9 @@ heroku:- [https://protected-crag-65686.herokuapp.com]
 * Site has a server 
 * The Site show a spinner when product load from API
 * Here is a admin panel
-* Implement Private Route
-* Firebase authentication system
 * Gitignore and .env file used in server Site
 * Use Mongodb for database access
-
+* Responsive for mobile and desktop. 
+* Private Route Implemented. 
+* ImageBB for image hosting. 
+* Firebase for Google authentication.
